@@ -1,4 +1,4 @@
-const API_SERVER = "http://localhost:8080";
+const API_SERVER = "https://microfrontend-server.herokuapp.com";
 
 export const getProducts = () =>
   fetch(`${API_SERVER}/products`).then((res) => res.json());
